@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dietblr</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+    <link href="https://fonts.googleapis.com/css?family=Karla|Lobster|Poppins" rel="stylesheet">
+
+    <!-- Última versão CSS compilada e minificada -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Tema opcional -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Última versão JavaScript compilada e minificada -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+<style>
+
+    .carousel-inner{
+      height: auto;     
+  }
+    .jumbotron {
+    
+        height: 200px;
+        width: auto;
+        text-align: center;
+}
+    
+    /* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+    /* Style the header links */
+    .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    }
+
+    .header a.logo {
+  font-size: 50px;
+  font-weight: bold;
+        font-family: 'lobster';
+     
+}
+    .header-right {
+  float:none;
+        text-align: center;
+        font-size: 25px
+            }
+
+    #nav {
+        font-family: 'karla';
+    }
+    #titulo {
+        font-family: 'poppins';
+        font-weight: bold;
+        
+    }
+
+  
+    
+      #bg {
+        background-color: #455c76;
+    }
+    
+    #brancobro{
+        background-color:#f1f1f1;
+        margin:0;
+padding:25px;
+        
+
+    }
+     #branco{
+        background-color: #f1f1f1;
+    
+         border-width: 7px;
+  border-style: solid;
+  border-color: #5b738d;
+
+    }
+   #fixo {
+    position:fixed;
+   }
+
+    
+   #label1{
+ background-color: white;
+ text-align:center;
+ border: thin solid black;;
+ border-color: black;
+}
+
+#label2
+{
+ background-color: white;
+ 
+ border: thin solid black;;
+ border-color: black;
+}
+
+    </style>
+</head>
+    
+
+    <body id="bg">
+
+       <div class="header">
+  <a href="home.html" class="logo" id="posi" >Dietblr</a>
+  <div class="header-right">
+    
+  </div>
+</div>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="nav">
+            <a class="navbar-item" href="home.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+  
+                
+        <div class="collapse navbar-collapse"       id="collapsibleNavbar">
+            <ul class="navbar-nav">
+           
+            <li class="nav-item">
+            <a class="nav-link" href="Receita.html"> Receitas</a>
+            </li>
+            <li class="nav-item">
+        <a class="nav-link" href="noticias.html">Notícias</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Teste.html">Blog</a>
+      </li> 
+                <li class="nav-item">
+        <a class="nav-link" href="#">Downloads</a>
+      </li> 
+        <li class="nav-item">
+        <a class="nav-link" href="Cadastro.html">Cadastro</a>
+      </li> 
+                
+            </ul>
+        
+        </div>  
+
+        </nav>
+        
+
+
+        <div class="container" id="borda" style="margin-top:30px">
+    <div class="row">
+        
+      
+      <div class="col-sm-4" id="branco">
+      <h2 id="titulo">Sobre o Dietblr:</h2>
+      <h5></h5>
+      <p>O projeto, criado em 2019, tem como objetivo reunir informações sobre a diabetes... <a href="#" >Saiba mais</a></p>
+      <br>
+          <br>
+          <img src="img/diadiabetes.jpg" width=100% > </img>
+          
+          <br>
+          <br>
+
+          <h3 id="titulo">Outras Plataformas:</h3>
+      
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Mobile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Desktop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+
+      </ul>
+
+          
+          <br>
+          <br>
+       <img src="img/taylor1.jpg" width=100% > </img>
+          <br>
+          <br>
+          <br>
+          <img src="img/brig.jpg" width=100% > </img>
+          <br>
+          <br>
+    </div>
+    <div class="col-sm-8" >
+        <ul> 
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner" id="label1">>
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/insulina.jpg" alt="Alimentação">
+                    <div class="carousel-caption d-none d-md-block">
+                   <h2 id="titulo">Controle de diabetes: Como deve ser feito?</h2>
+                    
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/img2.jpg" alt="Segundo Slide"> <h2 id="titulo">Controle de diabetes: Como deve ser feito?</h2>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/img3.jpg" alt="Terceiro Slide">
+                </div>
+                </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+        </div> 
+            <br>
+            <br> 
+      <div class="col-lg-12" id="label1" >      
+    <h2 id="titulo">Diabetes tipo I: O que é?</h2>
+      <p>07/abril/2019 - Maria Eduarda Rodrigues</p>
+            <img src="img/diabetes-tipo1.jpg" width="600px"> </img>
+        
+      <p><b>Diabetes tipo 1 </b>– É também conhecido como diabetes insulinodependente, diabetes infanto-juvenil e diabetes imunomediado. Neste tipo de diabetes a produção de insulina do pâncreas é insuficiente pois suas células sofrem o que chamamos de destruição autoimune. Os portadores de diabetes tipo 1 necessitam injeções diárias de insulina para manterem a glicose no sangue em valores normais. Há risco de vida se as doses de insulina não são dadas diariamente. O diabetes tipo 1 embora ocorra em qualquer idade é mais comum em crianças, adolescentes ou adultos jovens.
+
+</p>
+        
+      <br>
+            </div>    
+    
+      <div class="col-lg-12" id="label1" >  
+        <h2 id="titulo">Diabetes tipo 2: O que é?</h2>
+      <p>07/abril/2019 - Maria Eduarda Rodrigues</p>
+            <img src="img/diabetes-tipo2.jpg" width="600px"> </img>
+      
+      <p><b>Diabetes tipo 2 </b> – É também chamado de diabetes não insulinodependente ou diabetes do adulto e corresponde a 90% dos casos de diabetes. Ocorre geralmente em pessoas obesas com mais de 40 anos de idade embora na atualidade se vê com maior frequencia em jovens , em virtude de maus hábitos alimentares, sedentarismo e stress da vida urbana Neste tipo de diabetes encontra-se a presença de insulina porém sua ação é dificultada pela obesidade, o que é conhecido como resistência insulínica, uma das causas de HIPERGLICEMIA. Por ser pouco sintomática o diabetes na maioria das vezes permanece por muitos anos sem diagnóstico e sem tratamento o que favorece a ocorrência de suas complicações no coração e no cérebro.
+
+</p>
+        </div>
+     <div class="col-lg-12" id="label1" > 
+        
+    <div id="container" class="branco">
+      <h1>Mitos e Verdades: Teste seu conhecimento sobre diabetes!</h1>
+        <br>
+        
+   <img src="Img/dia.jpg" width="600px"> </img>
+        <br>
+      <div id="content">
+          <br>
+        <h3 id="question"></h3>
+        <div id="choices"></div>
+          <br>
+        <p><button id="submit"></button></p>
+          <br>
+          <br>
+        <p id="score"></p>
+      </div>
+    </div>
+    <script src="aqui.js"></script>
+   </div>
+    <div class="col-lg-12" id="label2" >  
+        <h2 id="titulo">10 fake news de diabetes que circulam na internet</h2>
+      <p>07/julho/2019 - Maria Eduarda Rodrigues</p>
+            <img src="img/faek.jpg" width="100%"> </img>
+      
+      <p>
+
+<h4> 1
+Beber suco de quiabo "suga" açúcar do sangue e elimina o diabetes (51.000 compartilhamentos)
+</h4>
+<br>
+<h4>
+2
+Tomar suco de batata inglesa controla o diabetes e cura gastrite (31.943  compartilhamentos)
+</h4>
+<br>
+<h4>
+3
+Elimine o diabetes em 5 dias apenas com dois ingredientes: chá de pau de canela e sopa de pó de cravo (2.105 compartilhamentos)
+</h4>
+<br>
+<h4>
+4
+Infusão de folha de nespereira (ou folha de ameixa amarela) ajuda a produzir insulina, tratando o diabetes (1.998 compartilhamentos) 
+</h4>
+<br>
+<h4>
+5
+Beber suco de batata yacon cura diabetes em 30 dias (1.935 compartilhamentos)
+</h4>
+<br>
+<h4>
+6
+Apenas uma abóbora para normalizar a glicose
+(1.558 compartilhamentos)
+</h4>
+<br>
+<h4>
+7
+Chá de folha de manga possui um antioxidante que ajuda a tratar diabetes (1.181 compartilhamentos)
+</h4>
+<br>
+<h4>
+8
+Vitamina de casca de abóbora, em jejum, ajuda a controlar o diabetes (1.007 compartilhamentos)
+</h4>
+<br>
+<h4>
+9
+Beber um copo de suco de repolho por dia por pelo menos duas semanas reduz a glicose e cura o diabetes (998 compartilhamentos)
+</h4>
+<br>
+<h4>
+10
+Chá de carqueja ajuda a baixar os níveis de glicose no sangue (756 compartilhamentos)
+</h4>
+</p>
+        </div>
+        <div class="col-lg-12" id="label2" > 
+    <h2 id="titulo" > <i class="material-icons">cake</i> <a href="mousse.html"> Receita de mousse de maracujá DIET </a></h2>
+      <p>29/abril/2019 - Maria Eduarda Rodrigues</p>
+            <img src="img/mousse.jpg" width=100%> </img>
+      
+<br> 
+<br>      
+<h4> <b> Ingredientes: </b> </h4>
+
+<p> 1 lata de creme de leite light;
+<br> 1/2 lata de suco de maracujá;
+<br> gotas de adoçante a gosto. </p>
+<br>
+<br>
+<h4> <b> Modo de preparo: </b> </h4>
+Bata todos os ingredientes no liquidificador e despeje esse creme em potes individuais ou em vasilha única de vidro. 
+<br> Enfeite com sementes de maracujá e leve para gelar até endurecer. 
+<br>Sirva. 
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<br>
+<br>
+<!-- Add font awesome icons -->
+<a href= "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdietblr.com/Receitas/mousse-de-maracujá-DIET" target="_blank" rel="noopener" class="fa fa-facebook"></a>
+<a href="https://twitter.com/share?url=https%3A%2F%2Fdev.twitter.com%2Fpages%2Ftweet-button" target="_blank" class="fa fa-twitter"></a>
+<br>
+<br>
+<br>
+</div>
+<div class="col-lg-10">  </div>
+
+
+
+    </div>
+  </div>
+    </div>
+  </div>
+
+
+</html>

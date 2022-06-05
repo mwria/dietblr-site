@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dietblr</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+    <link href="https://fonts.googleapis.com/css?family=Karla|Lobster|Poppins" rel="stylesheet">
+
+
+
+ <!-- Última versão CSS compilada e minificada -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Tema opcional -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Última versão JavaScript compilada e minificada -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+ <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="semantic/dist/semantic.min.js"></script>
+
+<style type="text/css" media="screen">
+  #custom-tweet-button a {
+    display: block;
+    padding: 2px 5px 2px 20px;
+    background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
+    border: 1px solid #ccc;
+  }
+
+</style>
+
+<style>
+ 
+    .carousel-inner{
+      height: auto;     
+  }
+    .jumbotron {
+    
+        height: 200px;
+        width: auto;
+        text-align: center;
+}
+    
+    /* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+    /* Style the header links */
+    .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    }
+
+    .header a.logo {
+  font-size: 50px;
+  font-weight: bold;
+        font-family: 'lobster';
+}
+    .header-right {
+  float:none;
+        text-align: center;
+        font-size: 25px
+            
+}
+    #foot {
+    position:absolute;
+   margin:auto;
+    width:100%;
+        background-color: darkgray;
+}
+    #nav {
+        font-family: 'karla';
+    }
+    #titulo {
+        font-family: 'poppins';
+        font-weight: bold;
+        
+    }
+ 
+    /*
+    * Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.footer{
+  /*Novamente definimos a largura da div*/
+  width:1000px;
+  /* altura da div */
+  height:100px;
+  /* Cor de fundo da div */
+  background-color:#C3C;
+  }
+/* borda */
+
+#label1{
+ background-color: white;
+ text-align:center;
+ border: thin solid black;;
+ border-color: black;
+}
+
+      #bg {
+        background-color: #455c76;
+    }
+    
+    #brancobro{
+        background-color:#f1f1f1;
+        margin:0;
+padding:25px;
+        
+
+    }
+     #branco{
+        background-color: #f1f1f1;
+    
+         border-width: 7px;
+  border-style: solid;
+  border-color: #5b738d;
+
+    }
+    #borda { border-style: thin;
+  border-color: black;}
+  
+    .footer {
+ 
+   position:absolute;
+    bottom:0;
+    width:100%;
+}
+  </style>
+</head>
+
+    <body id="bg">
+
+       <div class="header">
+  <a href="home.html" class="logo">Dietblr</a>
+  <div class="header-right">
+    
+  </div>
+</div>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="nav">
+            <a class="navbar-brand" href="home.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+  
+                
+        <div class="collapse navbar-collapse"       id="collapsibleNavbar">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="Receita.html"> Receitas</a>
+            </li>
+            <li class="nav-item">
+        <a class="nav-link" href="#">Tecnología</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Fórum</a>
+      </li> 
+                <li class="nav-item">
+        <a class="nav-link" href="#">Downloads</a>
+      </li> 
+     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="sobrenos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Sobre nós
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="sobrenos.html">Quem nós somos?</a>
+          <a class="dropdown-item" href="#">Contato</a>
+          
+        </div>
+        </li>
+                
+            </ul>
+        
+        </div>  
+
+        </nav>
+        
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3" id="label1">
+          <h4 id="titulo" > <i class="material-icons">cake</i> <a href="mousse.html"> Receita de mousse de maracujá DIET </a></h4>
+      <p>29/abril/2019 - Maria Eduarda Rodrigues</p>
+            <img src="mousse.jpg" width="100%" > </img>
+<br>
+<br>
+        </div>
+<br>
+        <div class="col-sm-offset-1 col-sm-4" id="label1">
+        	<h4 id="titulo"> <i class="material-icons">cake</i><a href="paodoce.html">Receita de Pão Doce DIET</a></h4>
+<h2 id="titulo"></h2>
+      <p>29/abril/2019 - Maria Eduarda Rodrigues</p>
+            <img src="paodoce.jpg" width=100% > </img>
+        <br>
+        <br>
+        </div>
+        
+        <div class="col-sm-offset-1 col-sm-3" id="label1">
+        	<h4 id="titulo"> <i class="material-icons">cake</i>Brigadeiro Diet Sem Açúcar</h4>
+<h2 id="titulo"></h2>
+      <p>02/maio/2019 - Amanda Rocha - receitanatureba.com </p>
+            <img src="img/brigadeiro.jpg" width=100% > </img>
+        </div>
+    </div>
+
+<br>
+
+    <div class="row">
+        <div class="col-sm-5" id="label1">  <h2 id="titulo" href=""> <i class="material-icons">cake</i>   Bolo de Banana Diet</h2>
+<h2 id="titulo"></h2>
+      <p>02/maio/2019 - Maresia Eduarda </p>
+            <img src="img/banana.jpg" width=100% > </img>
+        </div>
+        <div class="col-sm-5"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3"></div>
+    </div>
+</div>
+</body>
+</html>

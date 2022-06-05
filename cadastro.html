@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dietblr</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+    <link href="https://fonts.googleapis.com/css?family=Karla|Lobster|Poppins" rel="stylesheet">
+
+    <!-- Última versão CSS compilada e minificada -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Tema opcional -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Última versão JavaScript compilada e minificada -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+<style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+    .carousel-inner{
+      height: auto;     
+  }
+    .jumbotron {
+    
+        height: 200px;
+        width: auto;
+        text-align: center;
+}
+    
+    /* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+    /* Style the header links */
+    .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    }
+
+    .header a.logo {
+  font-size: 50px;
+  font-weight: bold;
+        font-family: 'lobster';
+     
+}
+    .header-right {
+  float:none;
+        text-align: center;
+        font-size: 25px
+            
+}
+    #foot {
+    position:absolute;
+   margin:auto;
+    width:100%;
+        background-color: darkgray;
+}
+    #nav {
+        font-family: 'karla';
+    }
+    #titulo {
+        font-family: 'poppins';
+        font-weight: bold;
+        
+    }
+        #carro {
+        color: yellow;
+        -webkit-text-stroke-width: 0.25px;
+-webkit-text-stroke-color: #000;}
+    
+     #titulocarro {
+        font-family: 'poppins';
+        font-weight: bold;
+        color: black;
+    }
+    
+      #bg {
+        background-color: #455c76;
+    }
+    
+    #brancobro{
+        background-color:#f1f1f1;
+        margin:0;
+padding:25px;
+        
+
+    }
+     #branco{
+        background-color: #f1f1f1;
+    
+         border-width: 7px;
+  border-style: solid;
+  border-color: #5b738d;
+
+    }
+   #fixo {
+    position:fixed;
+   }
+  
+    .footer {
+ 
+   position:absolute;
+    bottom:0;
+    width:100%;
+}
+    
+   #label1{
+ background-color: white;
+ 
+ border: thin solid black;;
+ border-color: black;
+}
+    </style>
+</head>
+    
+
+    <body id="bg">
+
+       <div class="header">
+  <a href="home.html" class="logo" id="posi" >Dietblr</a>
+  <div class="header-right">
+    
+  </div>
+</div>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="nav">
+            
+
+        </nav>
+        
+
+
+       
+    <form class="form-horizontal" id="label1">
+<fieldset>
+
+<br>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="nome">Nome</label>  
+  <div class="col-md-5">
+  <input id="nome" name="nome" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">Email</label>  
+  <div class="col-md-5">
+  <input id="email" name="email" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="senha">Senha</label>
+  <div class="col-md-4">
+    <input id="senha" name="senha" type="password" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Appended Input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="appendedtext">Idade</label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <input id="appendedtext" name="appendedtext" class="form-control" placeholder="" type="text" required="">
+      <span class="input-group-addon">Anos de Vida</span>
+    </div>
+    
+  </div>
+</div>
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">Diabetes</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+      Tipo 1
+    </label>
+  </div>
+  <div class="radio">
+    <label for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      Tipo 2
+    </label>
+  </div>
+  <div class="radio">
+    <label for="radios-2">
+      <input type="radio" name="radios" id="radios-2" value="3">
+      Não Possuo
+    </label>
+  </div>
+  <div class="radio">
+    <label for="radios-3">
+      <input type="radio" name="radios" id="radios-3" value="4">
+      Prefiro não dizer
+    </label>
+  </div>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="enviar"></label>
+  <div class="col-md-4">
+    <button id="enviar" name="enviar" class="btn btn-primary">Começar</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+</html>

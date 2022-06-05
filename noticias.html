@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dietblr</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+    <link href="https://fonts.googleapis.com/css?family=Karla|Lobster|Poppins" rel="stylesheet">
+
+    <!-- Última versão CSS compilada e minificada -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Tema opcional -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Última versão JavaScript compilada e minificada -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+<style>
+     .carousel-inner{
+      height: auto;     
+  }
+    .jumbotron {
+    
+        height: 200px;
+        width: auto;
+        text-align: center;
+}
+    
+    /* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+    /* Style the header links */
+    .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    }
+
+    .header a.logo {
+  font-size: 50px;
+  font-weight: bold;
+        font-family: 'lobster';
+     
+}
+    .header-right {
+  float:none;
+        text-align: center;
+        font-size: 25px
+            }
+
+    #nav {
+        font-family: 'karla';
+    }
+    #titulo {
+        font-family: 'poppins';
+        font-weight: bold;
+        
+    }
+
+  
+    
+      #bg {
+        background-color: #455c76;
+    }
+    
+    #brancobro{
+        background-color:#f1f1f1;
+        margin:0;
+padding:25px;
+        
+
+    }
+     #branco{
+        background-color: #f1f1f1;
+    
+         border-width: 7px;
+  border-style: solid;
+  border-color: #5b738d;
+
+    }
+   #fixo {
+    position:fixed;
+   }
+
+    
+   #label1{
+ background-color: white;
+ text-align:center;
+ border: thin solid black;;
+ border-color: black;
+}
+
+#label2
+{
+ background-color: white;
+ 
+ border: thin solid black;;
+ border-color: black;
+}
+
+    </style>
+</head>
+    
+
+    <body id="bg">
+
+       <div class="header">
+  <a href="home.html" class="logo" id="posi" >Dietblr</a>
+  <div class="header-right">
+    
+  </div>
+</div>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="nav">
+            <a class="navbar-item" href="home.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+  
+                
+        <div class="collapse navbar-collapse"       id="collapsibleNavbar">
+            <ul class="navbar-nav">
+           
+            <li class="nav-item">
+            <a class="nav-link" href="Receita.html"> Receitas</a>
+            </li>
+            <li class="nav-item">
+        <a class="nav-link" href="noticias.html">Notícias</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Teste.html">Blog</a>
+      </li> 
+                <li class="nav-item">
+        <a class="nav-link" href="#">Downloads</a>
+      </li> 
+        <li class="nav-item">
+        <a class="nav-link" href="Cadastro.html">Cadastro</a>
+      </li> 
+                
+            </ul>
+        
+        </div>  
+
+        </nav>
+        
+
+<div class="container"  style="margin-top:30px">
+    <div class="row">
+        
+      
+      <div class="col-sm-4" id="branco">
+      <h2 id="titulo">Sobre o Dietblr:</h2>
+      <h5></h5>
+      <p>O projeto, criado em 2019, tem como objetivo reunir informações sobre a diabetes... <a href="#" >Saiba mais</a></p>
+      <br>
+          <br>
+          
+          <h3 id="titulo">Outras Plataformas:</h3>
+      
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+
+          <a class="nav-link active" href="#"> Mobile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Desktop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+      </ul>
+          </div>
+          <br>
+          <br>
+  
+
+     <div class="col-sm-8" >
+        <ul> 
+          <div class="col-lg-12" id="label2" >        
+        <h2 id="titulo">Unimed São Carlos vai realizar evento no Dia Mundial de Combate ao Diabetes</h2>
+      <p>07/julho/2019 - Maria Eduarda Rodrigues</p>
+            <img src="img/saocarlos.png" width="100%"> </img>
+          <p>
+            <br>
+            <br>
+No Dia Mundial de Combate ao Diabetes, a Unimed São Carlos irá realizar uma ação especial, gratuita e aberta a toda população, beneficiária ou não da Unimed. A Caravana da Saúde vai oferecer serviços como aferição de pressão arterial, testes de glicemia e bioimpedância, ação educacional e atendimento médico para pacientes com alterações nos testes iniciais. O evento, será das 9h às 16h, na Praça da Rua XV de Novembro.
+
+DIA MUNDIAL DE COMBATE AO DIABETES
+
+O dia 14 de novembro lembramos o Dia Mundial do Combate ao Diabetes. O objetivo é prevenir e conter a doença, controlando a alimentação e promovendo a prática de atividades físicas.
+
+
+ 
+De acordo com dados da Sociedade Brasileira de Diabetes (IDF), no Brasil são mais de 13 milhões de pessoas vivendo com diabetes, o que representa 6,9% da população. E esse número está crescendo. Em alguns casos, o diagnóstico demora, favorecendo o aparecimento de complicações.
+
+Pode ser que você ou alguém próximo tenha diabetes. Saiba mais e aprenda a conviver bem com a doença, transformando-a em mais um motivo para cuidar da saúde.
+
+Serviço – “Caravana da Saúde – Dia Mundial de Combate ao Diabetes”
+
+Data – 14 de novembro
+
+Horário – 9h às 16h
+
+Local – Praça da XV de Novembro
+
+Gratuito
+</p>
+</div>
+
+
+
+          <div class="col-lg-12" id="label2" >        
+        <h2 id="titulo">Mutirão da diabetes acontece neste final de semana e oferece exames gratuitos em Curitiba</h2>
+      <p>07/julho/2019 - Maria Eduarda Rodrigues</p>
+            <img src="img/curitiba.png" width="100%"> </img>
+          <p>
+            <br>
+            <br>
+            Neste sábado, das 9h às 16h, na Praça Ouvidor Pardinho, no bairro Rebouças, em Curitiba, acontecem o “Retina do Bem 2019” e o “7º Mutirão Diabetes Curitiba”.
+
+A iniciativa é uma parceria entre o Oftalmo Curitiba – Hospital da Visão, Centro Paranaense de Oftalmologia e a Prefeitura Municipal de Curitiba.
+
+O objetivo seria equalizar a fila para atendimento oftalmológico dos pacientes diabéticos na cidade. Podem fazer os exames pessoas com diabetes, encaminhadas ou não pela Secretaria de Saúde de Curitiba, assim como a população em geral que deseja medir o nível da glicemia para saber se tem a doença.
+
+Segundo a secretaria municipal da Saúde a ação faz parte do protocolo de atendimento dos pacientes diabéticos acompanhados nas unidades de saúde, uma vez que esses pacientes precisam realizar exames oftalmológicos uma vez por ano.
+
+No sábado os diabéticos poderão realizar exame de “Fundo de Olho”, que pode diagnosticar a Retinopatia Diabética. Casos mais graves, que necessitam de mais aplicações de laser ou tratamento cirúrgico, serão encaminhados para tratamento
+
+Lembrando ainda que a diabetes é uma das principais causas de amputação do membro inferior (pé), e por isso, o mutirão também vai oferecer avaliação do chamado “pé diabético
+
+Serviço – Retina do Bem 2019 e 7º Mutirão Diabetes Curitiba
+
+Data: 09 de novembro de 2019 (sábado).
+
+Horário: 9h às 16h. Local: Praça Ouvidor Pardinho – Rua 24 de maio, S/N, Rebouças.
+</p>
+</div>
+   
+
+
+   <div class="col-lg-12" id="label2" >        
+        <h2 id="titulo">Valinhos faz evento de conscientização com testes gratuitos para detectar diabetes</h2>
+      <p>07/julho/2019 - Maria Eduarda Rodrigues</p>
+            <img src="img/1.jpg" width="100%"> </img>
+          <p>
+            <br>
+            <br>
+            Para marcar o Dia Mundial da Diabetes, lembrado nesta quinta-feira (14), a Secretaria de Saúde de Valinhos (SP) promove uma ação para conscientizar a população a respeito do tema. A programação, gratuita e aberta ao público, ocorre das 8h às 11h no Terminal Rodoviário.
+
+Na ocasião, nutricionistas, enfermeiros e fisioterapeutas da rede municipal vão tirar dúvidas e passar orientações sobre a doença, além de realizar testes para detectar a possível presença da diabetes nos participantes. Como o exame é feito através de coleta de glicemia capilar, é indicado que os interessados estejam em jejum.
+
+Segundo a secretaria, os casos que apresentarem alguma alteração serão encaminhados à Unidade Básica de Saúde (UBS) em que o usuário for cadastrado para avaliação, diagnóstico e acompanhamento.
+
+
+Serviço
+Ação gratuita de conscientização sobre a diabetes
+
+Quando: quinta-feira (14) das 8h às 11h
+Onde: Terminal Rodoviário Mário Rolim Telles - Rua Antônio Carlos, Jardim Ribeiro.
+Quanto: gratuito
+</p>
+</div>
+
+
+              <div class="col-lg-12" id="label2" >        
+        <h2 id="titulo">10 fake news de diabetes que circulam na internet</h2>
+      <p>07/julho/2019 - Maria Eduarda Rodrigues</p>
+            <img src="img/faek.jpg" width="100%"> </img>
+      
+      <p>
+
+<h4> 1
+Beber suco de quiabo "suga" açúcar do sangue e elimina o diabetes (51.000 compartilhamentos)
+</h4>
+<br>
+<h4>
+2
+Tomar suco de batata inglesa controla o diabetes e cura gastrite (31.943  compartilhamentos)
+</h4>
+<br>
+<h4>
+3
+Elimine o diabetes em 5 dias apenas com dois ingredientes: chá de pau de canela e sopa de pó de cravo (2.105 compartilhamentos)
+</h4>
+<br>
+<h4>
+4
+Infusão de folha de nespereira (ou folha de ameixa amarela) ajuda a produzir insulina, tratando o diabetes (1.998 compartilhamentos) 
+</h4>
+<br>
+<h4>
+5
+Beber suco de batata yacon cura diabetes em 30 dias (1.935 compartilhamentos)
+</h4>
+<br>
+<h4>
+6
+Apenas uma abóbora para normalizar a glicose
+(1.558 compartilhamentos)
+</h4>
+<br>
+<h4>
+7
+Chá de folha de manga possui um antioxidante que ajuda a tratar diabetes (1.181 compartilhamentos)
+</h4>
+<br>
+<h4>
+8
+Vitamina de casca de abóbora, em jejum, ajuda a controlar o diabetes (1.007 compartilhamentos)
+</h4>
+<br>
+<h4>
+9
+Beber um copo de suco de repolho por dia por pelo menos duas semanas reduz a glicose e cura o diabetes (998 compartilhamentos)
+</h4>
+<br>
+<h4>
+10
+Chá de carqueja ajuda a baixar os níveis de glicose no sangue (756 compartilhamentos)
+</h4>
+</p>
+        </div>
+       
+
+
+             <div class="col-lg-12" id="label2" >  
+       <h2 id="titulo">Diabetes: Doença é responsável por 85% das amputações de membros inferiores</h2>
+      <p>13/novembro/2019 - Maria Eduarda Rodrigues</p>
+            <img src="img/amput.jpg" width="100%"> </img>
+
+            <p>
+              <br>
+              <br>
+              Entre 2011 e 2016 mais de 70 mil cirurgias de amputação foram realizadas pelo Sistema Único de Saúde (SUS) devido à diabetes. Ottobock possui reabilitação pioneira com prótese que possui tecnologia exclusiva para casos de amputações de pessoa com diabetes.
+
+Os números são assustadores e as projeções também. O estilo de vida atual, com alto índice de sedentarismo, tabagismo, consumo excessivo de bebidas alcoólicas, má alimentação e poluição do ar, é fator de risco que impulsiona o crescimento da incidência das doenças crônicas. A obesidade, principalmente, está entre as principais causas do diabetes, segundo a Sociedade Brasileira de Diabetes e a OMS.
+
+A diabetes é uma doença caracterizada pela elevação da glicose no sangue (hiperglicemia), que afeta a capacidade de cicatrização de feridas no corpo. Em artigo publicado no International Wound Journal, dados apontam que até 2025, mais de 125 milhões de pessoas desenvolverão úlceras diabéticas e mais de 20 milhões serão submetidos a uma amputação em todo o mundo.
+
+E isso acontece em decorrência da doença arterial periférica, típica da diabete e que ocasiona o chamado pé diabético. Ou seja, há uma predisposição a desenvolver úlceras e infecções, o que pode levar à amputação. O diabetes mellitus afeta 30% das pessoas acima de 40 anos de idade.
+
+“Mesmo sendo relativamente fácil prevenir uma amputação em decorrência da diabetes, o número de pessoas que sofrem amputações ainda é assustador. Nas nossas clínicas em Curitiba, Porto Alegre, São Paulo e Rio de Janeiro, a doença é causa da maioria das amputações não traumáticas”, conta Emerson Bovo, supervisor técnico da Ottobock Brasil, líder mundial no mercado de próteses e órteses de alta performance, e que oferece tratamento e reabilitação referência internacional em suas clínicas.
+
+Tecnologia de ponta garante reabilitação total a amputados
+
+Segundo a pesquisadora Isabel Cristina Vieira Ramos Santos, a amputação de membro inferior é duas vezes mais comum em pessoas diabéticas do que em pessoas sem a doença. Isso significa cerca de 70% das amputações não traumáticas de membros inferiores, sendo 85% após o surgimento de úlceras, as quais atingem 25% dos diabéticos. O processo de reabilitação no período pós-amputação deve ser cauteloso, no caso da pessoa com diabetes, deve ter cuidados especiais.
+
+“Logo na escolha da prótese, deve-se ter uma atenção especial ao paciente que sofreu uma amputação por diabetes, pois o contato contínuo do equipamento com o coto não pode causar mais danos. A Ottobock possui o Sistema Harmony de próteses para amputações de membros inferiores, desenvolvido a partir dessa necessidade especial da pessoa com diabetes. Seu sistema de vácuo gera uma pressão que favorece a melhora do fluxo sanguínea no coto. Com isso o paciente tem uma melhora progressiva da saúde não apenas do coto, mas do membro afetado de uma forma geral”, explica o fisioterapeuta especializado em traumatologia da Clínica Ottobock, Rodolfo Bostelmann.
+
+Para a reabilitação total do paciente amputado, a Ottobock desenvolve um trabalho baseado num protocolo internacional desenvolvido na Alemanha e que segue nove passos, incluindo a fabricação de uma prótese personalizada, desenvolvida exclusivamente para o paciente que teve um membro amputado.
+
+Não é simples. O processo de reabilitação para a vítima da amputação é psicológico e físico. “O primeiro passo é fazer com que a pessoa consiga se enxergar usando uma prótese e fazendo as mesmas atividades que fazia antes. A maioria tem uma visão muito imediatista da situação, o que acaba dificultando o processo de adaptação”, finaliza Bostelman, que também é amputado.
+      
+    </p>
+</div>
+
+<div class="col-lg-12" id="label2" >  
+       <h2 id="titulo">SP: Exame gratuito de diabetes é oferecido no metrô República</h2>
+      <p>13/novembro/2019 - Maria Eduarda Rodrigues</p>
+            <img src="img/diadiabetes.jpg" width="100%"> </img>
+
+            <p>
+              <br>
+              <br>
+Evento será realizado no Mezanino C da estação de segunda (11) à quarta (13), das 10h às 17h, em virtude do Dia Mundial do Diabetes, na quinta-feira (14).
+Exames gratuitos de glicemia, para o diagnóstico de diabetes, serão oferecidos no Mezanino C do metrô República, em São Paulo, nesta segunda (11), terça (12) e quarta-feira (13), das 10h às 17h. O evento é uma iniciativa da ADJ Diabetes Brasil em virtude do Dia Mundial do Diabetes na quinta-feira (14).
+
+Quem apresentar resultado alterado de glicemia receberá informações sobre a doença e será orientado a procurar um serviço de saúde. Para indicar alteração, o resultado precisa ser maior que 99mg/dL, se a pessoa estiver em jejum, e maior que 140mg/dL duas horas após a refeição.
+
+Saiba mais: Fumantes podem estar mais sujeitos a desenvolver diabetes
+
+No último dia de exames, será realizado também um desfile de pessoas com diabetes, das 11h às 13h. O desfile é parte do movimento Divabética, que tem como objetivo mostrar que pessoas com a doença podem ter uma vida normal, se fizerem o tratamento adequado, de acordo com a ADJ Diabetes Brasil.
+
+PublicidadeFechar anúncio
+O diabetes é uma doença provocada pela falta ou má absorção da insulina, hormônio responsável pelo aproveitamento da glicose no corpo.
+
+Segundo a OMS (Organização Mundial da Saúde), o Brasil é quarto país com maior número de pessoas diagnosticadas com a doença. São 16 milhões de brasileiros afetados.
+</p>
+
+</div>
+
+<div class="col-lg-12" id="label2" >  
+       <h2 id="titulo">Dia Mundial do Diabetes: doença atinge 13 milhões de brasileiros</p> </h2>
+        <p>12/novembro/2019 - Diario de Pernambuco</p>
+            <img src="img/quadro.jpg" width="100%"> </img>
+
+            <p>
+              <br>
+              <br>
+No próximo dia 14 de novembro é o Dia Mundial do Diabetes, uma doença causada pela produção insuficiente ou má absorção de insulina, um hormônio que regula a glicose no sangue e garante energia para o organismo. Atualmente, a doença atinge cerca de 13 milhões de brasileiros, segundo a Sociedade Brasileira de Diabetes, o que representa 6,9% da população nacional.
+
+O aumento de glicemia no organismo causado por diabetes pode desenvolver problemas no coração, nos olhos, nos nervos e nos rins. Em casos mais sérios, a doença pode levar à morte. “Não há cura, apenas os medicamentos hoje em dia controlam a glicemia e reduzem as complicações. O tipo 2 da doença é o mais comum em adultos, chegando a 90% dos casos”, explica Dr. Miguel Carlos Riella, presidente e nefrologista da Fundação Pró-Renal. 
+
+Por ser uma doença silenciosa, ela pode existir por anos sem sintomas. “Os sintomas clássicos são os derivados dos altos níveis de glicose no sangue como sede, aumento do volume de urina, aumento do apetite, infecções urinárias e de pele recorrentes, entre outros”, pontua o médico. Mudanças de humor, fadiga, náuseas, vômitos e perda de peso, formigamento nas mãos e pés, visão embaçada e feridas que demoram para cicatrizar também podem ser indícios da doença, tanto diabetes tipo 1 quanto diabetes tipo 2.
+
+Foram esses sintomas que fizeram Allan descobrir a doença. “Eu tomava muita água, era questão de um, dois litros e ia muito ao banheiro fazer xixi, era de três a quatro litros de urina”, descreve. Ele entrou em um estado de desidratação profunda. “Ninguém sabia o que era diabetes na época, minha mãe me levou em uma médica que receitou uma vitamina com bastante glicose”, conta. Ele fez uso da dieta por um dia e meio. “Entrei em coma diabético, fui direto para a UTI e fiquei 30 dias em coma”. Mas apesar de conviver com a doença, Allan leva uma vida normal. Seu tratamento é feito com bomba de infusão de insulina, o que melhorou consideravelmente sua qualidade de vida. Ele soma também a prática de exercícios físicos e alimentação saudável, seguindo a recomendação médica. Allan também é Paciente Renal Crônico e faz tratamento de diálise peritoneal devido a perda da função renal decorrente da Diabetes.
+
+É importante que ao sentir qualquer sintoma o médico seja consultado para iniciar o tratamento o quanto antes. “Uma vez diagnosticado, o paciente precisa ser bem orientado por um médico especialista para melhor controle da glicemia e dos hábitos diários, como dieta, exercícios, entre outros, para minimizar as complicações”, explica o nefrologista da Fundação Pró-Renal.
+
+Doença renal — Os rins são órgãos compostos por milhões de vasinhos sanguíneos que ajudam a remover os resíduos do sangue. Sua capacidade de filtragem pode sofrer danos por conta de diabetes. O alto nível de açúcar no organismo faz com que os rins filtrem mais sangue, sobrecarregando os órgãos e fazendo com que moléculas de proteína sejam eliminadas pela urina (microalbuminúria).
+
+Quando a doença renal é diagnosticada por meio da microalbuminúria, há tratamentos que podem evitar complicações. Quando é detectada tardiamente (macroalbuminúria), a complicação é chamada de doença renal terminal. Com o tempo, os rins acabam perdendo seu funcionamento, levando o paciente a precisar de um transplante ou sessões regulares de diálise.
+
+Pé diabético — A doença arterial periférica diminui o fluxo de sangue para os pés e é um dos problemas que acomete muitas pessoas com diabetes com úlceras e infecções que podem ocasionar amputação do(s) membro(s). Segundo a Organização Mundial da Saúde (OMS), a cada minuto, três pessoas são amputadas no mundo por consequência de diabetes. Segundo o Ministério da Saúde, um quarto dos diabéticos desenvolve úlceras nos pés e 85% das amputações de membros inferiores é feita em pessoas com diabetes.
+
+“O paciente com diabetes tem a perda da sensibilidade, mudança na estrutura óssea dos pés; tudo isso se dá pela neuropatia diabética. Quando o paciente já apresenta estas alterações não existe cura, somente um controle dos sintomas mediante ao paciente controlar o diabetes para não ter mais complicações”, explica Ruth Pimenta, podóloga e enfermeira da Fundação Pró-Renal.
+
+No entanto, ainda segundo o Ministério da Saúde, muitas amputações são evitáveis quando se tem cuidados regulares, como acompanhamento médico e o uso de sapatos adequados. “Sempre orientando quanto a hidratação, secar bem os pés após o banho, não cortar as unhas em casa, não usar chinelos de dedo, olhar os sapatos antes de calçar, utilizar sapatos adequados para as alterações em seus pés”, complementa a podóloga.
+
+Segundo a Fundação Pró-Renal, a pessoa que apresentar alguma deformidade, ferida ou outras situações diferentes nos pés, deve consultar sempre um podólogo para as devidas orientações. “Muitas vezes conseguimos evitar problemas mais sérios e até uma amputação ao realizar a prevenção e os tratamentos devidos”, ressalta a podóloga da Fundação Pró-Renal.
+
+</p>
+</div>
+
+<div class="col-lg-12" id="label2" >  
+       <h2 id="titulo">Infecções dentárias podem dificultar controle do diabetes</p> </h2>
+        <p>12/novembro/2019 - Diario de Pernambuco</p>
+            <img src="img/dent.jpg" width="100%"> </img>
+
+            <p>
+              <br>
+              <br>
+
+              14 de novembro é o dia mundial de conscientização do diabetes. A doença vem aumentando gradativamente ao longo dos anos e pesquisas recentes revelam como ela pode influenciar na saúde da boca, assim como as doenças da cavidade oral podem prejudicar o controle da glicemia, alerta a dentista Cicilia Carvalho, especialista em implantodontia.
+
+A secura da boca, um dos sintomas da diabetes, costuma ser responsável pelo aparecimento de aftas e cáries. Porém, diabéticos têm alto risco de adquirirem infecções mais complicadas como gengivite, um estágio inicial de doença gengival, e periodontite, doença gengival avançada com perdas ósseas. 
+
+“Pessoas com diabetes têm um risco aumentado para doenças gengivais avançadas porque os diabéticos são geralmente mais suscetíveis às infecções bacterianas, e têm uma diminuição na capacidade de combater as bactérias que invadem o tecido gengival”, explica Cicilia.
+
+O primeiro passo do dentista é identificar o paciente diabético. Uma anamnese detalhada é primordial para entender como os pacientes estão em relação à saúde geral. Em alguns casos, o próprio dentista pode suspeitar que o paciente é portador de Diabetes. “Estima-se que para cada duas pessoas que tem a doença, uma delas não sabe do diagnóstico”, revela a especialista.
+
+O atendimento odontológico em pacientes diabéticos é feito com consultas curtas, em momentos de menor estresse do paciente. Uma descompensação da glicemia pode trazer atraso na cicatrização e predispor infecções. Já o paciente diabético controlado e compensado, liberado pelo médico, pode ser tratado como um paciente que não tem a doença e fazer diversos tipos de tratamentos odontológicos, inclusive os cirúrgicos como implantes dentários, e obter alto índice de sucesso.
+
+Cuidados com a saúde bucal
+
+- Faça uma avaliação com dentista de 6 em 6 meses;
+
+- Escove os dentes, pelo menos, 3 vezes ao dia e passe fio dental diariamente;
+
+- Informe ao seu dentista se você é diabético e as medicações que utiliza;
+
+- Siga a dieta prescrita pelo médico ou nutricionista;
+
+- Pratique exercícios físicos;
+
+- Mantenha sua taxa de glicose controlada;
+
+- Não fume;
+
+- Evite bebida alcoólica.
+</p>
+</div>
+
+<div class="col-lg-12" id="label2" >  
+       <h2 id="titulo">Anti-inflamatório comum aumenta risco de diabetes com apenas 7 dias de uso</p> </h2>
+        <p>12/novembro/2019 - Diario de Pernambuco</p>
+            <img src="img/ant.jpg" width="100%"> </img>
+
+            <p>
+              <br>
+              <br>
+              Uma semana de uso de prednisolona, um anti-inflamatório comum usado para tratar asma, artrite, alergias, eczema e síndrome do intestino irritável, é suficiente para aumentar o risco de diabetes tipo 2, segundo informações do Daily Mail. É o que mostra um estudo realizado por pesquisadores da Universidade Sapienza de Roma, na Itália, apresentado durante a Conferência Anual da Sociedade de Endocrinologia, realizado recentemente em Brighton, na Inglaterra.
+
+Não é novidade que o uso de esteroides por longos períodos prejudica a regulação do açúcar no sangue. Por sua vez, o controle inadequado do açúcar no sangue leva à resistência à insulina, considerada um dos principais fatores de risco para o desenvolvimento de diabetes tipo 2.
+
+A questão é que o novo estudo mostrou que o uso de um dos tipos de esteroides mais comuns, a prednisolona, aumenta esse risco após um curto período de uso. “Este é o primeiro estudo a examinar os efeitos metabólicos a curto prazo de doses comumente prescritas de glicocorticoides em homens saudáveis. [Isso] indica que, mesmo com doses mais baixas, o metabolismo da glicose é prejudicado, sugerindo um risco aumentado de diabetes com o tratamento continuado.”, disse Riccardo Pofi, líder do estudo. 
+
+Os glicocorticoides, grupo ao qual pertence a prednisolona, são um tipo de esteroide que imitam o hormônio cortisol, produzido pela glândula adrenal. O cortisol, chamado de hormônio do stress, é conhecido por seu efeito anti-inflamatório. Porém, alguns efeitos colaterais de seu uso prolongado incluem ganho de peso e osteoporose.
+
+</p>
+</div>
+
+<div class="col-lg-12" id="label2" >  
+       <h2 id="titulo">Entidade prêve 48% de aumento global no diagnóstico de diabetes</p> </h2>
+        <p>12/novembro/2019 - Diario de Pernambuco</p>
+            <img src="img/diab.png" width="100%"> </img>
+<p>
+  <br>
+  <br>
+Uma das prioridades da Organização Mundial da Saúde (OMS) em 2019, o controle de doenças crônicas não transmissíveis, como o diabetes, ainda enfrenta dificuldades no Brasil e no mundo. De acordo com os últimos dados divulgados pela Federação Internacional de Diabetes (IDF, na sigla em inglês), está previsto um aumento de 48% de aumento global no diagnóstico da doença. Até 2045, a estimativa é de que 629 milhões de pessoas tenham o mal. Para conscientizar sobre esse crescimento, o Continua depois da publicidade
+
+Dia Mundial do Diabetes, nesta quinta-feira (14/11), traz como tema o cuidado pela família.
+
+No Brasil, o número elevado de diabéticos ainda mostra que o controle é problemático. De acordo com a Sociedade Brasileira de Diabetes (SBD), 13 milhões de pessoas têm a doença. A mais recente pesquisa Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico (Vigitel), realizada em 2018, detectou que 7,7% da população adulta brasileira foi diagnosticada com diabetes no ano da pesquisa.
+
+Para a presidente da Sociedade Brasileira de Diabetes, a endocrinologista Hermelinda Pedrosa, apesar de mais informações, a vida moderna traz obstáculos para a adoção de hábitos mais saudáveis — e, por consequência, um combate mais eficiente. “O Brasil tem um número crescente de pessoas com sobrepeso e obesidade. Até mesmo de crianças e adolescentes”.
+
+Ela salienta que as pessoas estão comendo em maior quantidade e mais inadequadamente. “A vida moderna tem um cenário convidativo para o sedentarismo. A gente não gasta tanta energia como antes. Até para dirigir um carro é diferente”.
+
+A médica explica que o tema da campanha foca na família pela importância que o núcleo do lar tem. “Tem um papel importante em diversas fases das doenças. Da prevenção até o controle e evolução”, diz Hermelinda. As mudanças de comportamento dos integrantes podem evitar complicações, que afetam coração, visão e sistema renal. A falta de um diagnóstico precoce pode acelerar ainda mais o aparecimento dos efeitos do diabetes. Segundo a presidente da SBD, no Brasil 6.680 milhões de pessoas não sabem que têm a doença. “Um diagnóstico cedo pode ajudar, e até mesmo reverter, e evitar mais problemas. Aconselhamos a pessoa a identificar se tem um fator de risco e, principalmente, a partir de 40 anos, fazer exames anuais”, indica. Os fatores de risco são: histórico familiar de diabetes, obesidade ou sobrepeso, sedentarismo, hipertensão arterial, histórico de diabetes gestacional.
+Efeitos nas crianças
+Os dados da pesquisa Vigitel mostram que a educação é uma grande influência na frequência do diagnóstico da população. Quem tem até oito anos de escolaridade (15,2%) é quatro vezes mais suscetível do que quem tem 12 ou mais anos de escolaridade (3,7). Já em relação à idade, a frequência da condição de diabético aumenta com que avança. Mas, vale ressaltar, não é somente quando se envelhece que se diagnostica o mal.
+A diabetes tipo 1, por exemplo, geralmente é descoberta em crianças e adolescentes. É o caso do Rafael, 5 anos, filho de Ana Carolina Torelly, 41. O menino foi diagnosticado aos 12 meses. Na época, a mãe notou que o filho estava com muita sede e urinava além da conta. Ao procurar um médico, os exames confirmaram. A partir desse dia, a vida mudou.
+
+“É uma doença que afeta a família e o engajamento de todos é fundamental para o bom controle. O diabetes do Rafa me trouxe uma visão muito diferente da alimentação”, explica. A partir das experiências que viveu com o filho, Ana Carolina decidiu criar um perfil numa rede social para interagir com outras pessoas que passam pela mesma situação. Hoje, ela é quem dá as dicas e compartilha o dia a dia de uma mãe com filho diabético. “Percebi que estava ajudando outras pessoas. O que mais me alegra é o apoio que dou para mães que acabaram de receber esse diagnóstico”.
+
+Para ela, a chegada do diabetes na vida da família trouxe união, e até mais saúde para todos.
+</p>
+</div>
+<br>
+<br>
+        
+<div class="col-lg-12" id="label2" >  
+       <h2 id="titulo">A maconha no tratamento do diabetes</p> </h2>
+       <p>12/novembro/2019 - Diario de Pernambuco</p>
+            <img src="img/mac.png" width="100%"> </img>
+<p>
+  <br>
+  <br>
+Segundo a ADJ (Diabetes Brasil), o diabetes é um problema emergente mundial. O número de pessoas que sofrem da doença tem aumentado muito além do previsto, e está alcançando um dos primeiros lugares em causa de mortes por todo o globo. Em 2015, o diabetes alcançou quinto lugar no ranking, sendo que em 2000 não estava nem entre os dez primeiros. Estima-se que uma pessoa morra por complicações da doença a cada 6 segundos.
+
+Semana do Grower
+No Brasil, o diabetes é a quarta principal causa de mortes, acometendo um em cada dez adultos no País (14,3 milhões de pessoas). Isso gera um custo de mais de 21 bilhões de dólares ao ano na área da saúde. Como a maconha pode ajudar? Nós ainda não sabemos com exatidão, mas temos algumas pistas.
+
+Prevenção
+As principais recomendações na prevenção de Diabetes, sobretudo o tipo II, incluem uma dieta balanceada e exercícios físicos. Estudos têm indicado, contudo, que a cannabis também tem um papel na prevenção da doença.
+
+“Uma descoberta mais recente indica que a cannabis pode ajudar a tratar e até prevenir a ocorrência de diabetes; ela exerce um efeito pró-metabólico em pacientes diabéticos, ajudando a normalizar os níveis de açúcar, colesterol e lipídios no sangue. Além disso, a incidência de insulite (inflamação no pâncreas que pode causar redução de insulina) é reduzida nesses pacientes”. (HOLLAND, 2010)
+
+Um estudo realizado em 2012 indicou que usuários de cannabis têm menos chances de desenvolver diabetes. A pesquisa foi realizada com a população americana em geral, encontrando que a prevalência de diabetes em não-usuários é de 18,9%; de usuários esporádicos, 15,8%; e de usuários frequentes é de 9,2%. Ou seja, as chances de desenvolver diabetes caem pela metade em usuários frequentes de maconha.
+
+Autoimunidade
+O diabetes tipo I, ou diabetes mellitus, é uma doença autoimune. As células que produzem insulina são identificadas pelo organismo como uma ameaça, devido a um defeito na resposta imunológica, e atacadas pelos anticorpos. Esse defeito ocorre na resposta imunológica TH1, uma resposta inflamatória, causando, portanto, inflamação no pâncreas (onde a insulina é produzida).
+
+A cannabis tem um efeito anti-inflamatório (identificado também em estudos com THC e com o CBD isolados), mas sem afetar a capacidade imunológica do organismo. A erva parece inibir a resposta imunológica TH1 e favorecer a TH2 (uma resposta imunológica anti-inflamatória). Dessa forma, a cannabis é capaz de reduzir os efeitos negativos de doenças autoimunes como a diabetes mellitus, sem, contudo, diminuir as defesas do organismo.
+
+Em uma investigação realizada pela AAMC (American Alliance for Medical Cannabis), foi constatado que:
+
+“Muitos canabinoides agem primariamente para inibir protaglandinas e COX-2 (substâncias ligadas à inflamação de tecidos), providenciando ação antioxidante para salvar radicais livres, e inibindo macrófagos (relacionado ao efeito autoimune da doença) e TNF (também inflamatório). Isso tudo significa que a cannabis é um excelente anti-inflamatório que não apresenta os efeitos colaterais de esteroides (que diabéticos precisam evitar) (…), como Vioxx.”
+
+Clique aqui para mais detalhes sobre os efeitos da cannabis em autoimunidade.
+
+Neuroproteção
+A diabetes também tem uma série de complicações no sistema nervoso. A Cannabis é conhecida por ter um efeito neuroprotetor (que tem ajudado no tratamento de crianças com epilepsia), que pode ajudar a combater uma série de complicações causadas pelo diabetes.
+
+O diabetes é uma das mais comuns causas de cegueira em adultos, 90% dos diabéticos tipo I desenvolvem problemas na visão. O que ocorre, é a neurodegeneração (morte de células nervosas) da retina. Estudos em ratos demonstraram que canabinoides, especialmente o CBD, são capazes de combater essa neurodegeneração e prevenir a cegueira (El-Remmessy et al., 2006).
+
+A cannabis também é eficaz no tratamento da dor neuropática presente em pacientes com diabetes.
+
+Sistema circulatório e casos de pacientes
+Entre outros efeitos da cannabis que podem auxiliar pacientes com diabetes, está sua função como vasodilatador, facilitando a circulação sanguínea desses pacientes. Os problemas circulatórios causados pela diabetes são conhecidos por levar membros a serem amputados.
+
+Muitos relatos de pacientes estão vindo à tona, revelando o potencial da cannabis para o tratamento do diabetes. Uma senhora de Santos, litoral de São Paulo, que não quis ser identificada, substituiu doze doses diárias de insulina por algumas gotinhas de um óleo de maconha concentrado.
+
+São necessários mais estudos para determinar a real eficácia da cannabis no tratamento do diabetes, quais as cepas de maior interesse para esses pacientes, suas dosagens, etc. Enquanto isso, o número de diabéticos continua aumentando, e estima-se que chegue a atingir 1 em cada 7 adultos no Brasil (mais de 23 milhões) em 2040. Pesquisas em como prevenir e tratar a doença mais eficazmente são, de fato, uma prioridade.
+</p>
+</div>
+
+<div class="col-lg-12" id="label2" >  
+       <h2 id="titulo">Alimentação e pré-diabetes: como a dieta pode ajudar os pacientes</p> </h2>
+        <p>12/novembro/2019 - Diario de Pernambuco</p>
+            <img src="img/alimen.jpg" width="100%"> </img>
+<p>
+  <br>
+  <br>
+De acordo com pesquisa do Ibope Inteligência encomendada pela Merck, 42% da população desconhece o pré-diabetes, condição que indica um conjunto de alterações nos índices de glicemia (açúcar no sangue) que ainda não são suficientes para considerar o paciente como diabético.
+
+No entanto, já apresentar essas alterações mostra risco mais elevado de vir a ter o diabetes tipo 2 no futuro. Isso acontece pois ela cria um estado de resistência à insulina, ou seja, o pâncreas passa a produzi-la em excesso na tentativa de controlar os níveis de açúcar.
+
+A condição muitas vezes pode ser fruto de maus hábitos praticados por um longo período, como dieta inadequada, sedentarismo, ganho de peso e tendência genética (parentes próximos com diabetes do tipo 2). Some-se a isso fatores de risco, como tabagismo, histórico de diabetes gestacional e algumas etnias. “Asiáticos e algumas tribos indígenas têm maior propensão para desenvolver a doença. Já brasileiros apresentam risco maior do que os europeus, por exemplo”, explica o endocrinologista e mestre em nutrologia Roberto Zagury.
+
+Confira a seguir as dicas do especialista para manter uma alimentação mais adequada para quem está pré-diabético:
+
+1- Dieta equilibrada Diagnosticado o quadro, é hora de cuidar da alimentação. “Não existe um regime único e específico para esses pacientes, mas aconselhamos a adoção de uma dieta balanceada com baixo teor de açúcar e sem ingestão de alimentos processados que possuem altas concentrações de açúcar, gordura e óleo”, afirma Zagury. O médico indica uma composição clássica de total de calorias divididas em: 55% de carboidratos complexos, que são enriquecidos com fibras e não são facilmente absorvidos pelo organismo, 15% de proteínas, 30% de lipídios (gorduras boas, como azeite, abacate e castanhas). “Não é preciso cortar o açúcar completamente, mas o de mesa e o utilizado no preparo de alimentos devem ser eliminados”, afirma o endocrinologista. “Dietas super-restritivas não adiantam, pois não vai haver adesão. É melhor uma realista que o paciente consiga seguir”, diz. Ele recomenda que o paciente tenha uma equipe multidisciplinar que inclua um nutricionista para ajudar a montar a dieta.
+
+2- No que apostar Para Zagury, pré-diabéticos devem consumir de preferência: grãos e cereais integrais, legumes, vegetais do grupo A (folhas) têm o consumo totalmente livre, café (a bebida está associada à menor ocorrência de diabetes tipo 2, mas não evita a doença), vitamina D (a prevalência na população de quem tem deficiência da vitamina é maior do que em quem tem níveis normais, mas tomar a vitamina D não vai driblar o pré-diabetes). O consumo desses alimentos, em substituição a carboidratos simples (que são altamente calóricos, frituras e gorduras de origem animal), está associado a uma menor incidência de diabetes em pessoas com pré-diabetes. “Quem consome alimentos mais saudáveis não ganha peso e não piora seus parâmetros metabólicos, como a resistência à insulina”, explica o especialista. Também é importantíssimo praticar atividades físicas. Ao manter-se ativo, o seu organismo vai utilizar a glicose (açúcar) para obter energia, fazendo com que os níveis de glicemia (açúcar no sangue) não subam. O exercício também ajuda a reduzir a resistência à insulina. O ideal, ensina o endocrinologista, são as atividades físicas aeróbicas de moderada intensidade, como caminhada, por 150 minutos distribuídos na semana. Ou então, 75 minutos por semana de atividades de alta intensidade, como a corrida.
+
+3- O que evitar O especialista ressalta que não é adequado eliminar completamente qualquer alimento, mas, em linhas gerais, devem ser menos consumidos: farinha branca (bolos, biscoitos recheados, tortas), doces, bebidas adoçadas artificialmente, como refrigerantes, bebidas lácteas e sucos de caixinha. O consumo de carboidratos altamente refinados produz um pico glicêmico mais precoce após a alimentação. “Quanto mais simples, processado e com menos fibras, mais facilmente ele será absorvido pelo organismo, elevando a glicose de forma mais acelerada”, diz Zagury. Há outras questões importantes que precisam ser levadas em consideração no combate ao pré-diabetes. “Pesquisas mostraram que pessoas que trabalham no turno da noite têm maior chance de desenvolver esse quadro. Também influenciam: o número de horas dormidas, o uso de celular à noite e o jet lag social (quando alguém dorme todos os dias no mesmo horário, mas não no fim de semana, mesmo que as horas dormidas sejam iguais)”, explica o endocrinologista. O estresse também afeta a quantidade de açúcar no sangue. “Utilizar aplicativos para aliviá-lo, fazer terapia, yoga e ter um hobby ajudam no controle.” 
+
+4- Como descobrir Para saber se a pessoa está pré-diabética, há três diferentes exames de sangue: 1) glicemia de jejum: quem apresenta entre 100 e 125 mg/dl indica o estado alterado; 2) glicemia pós-sobrecarga (antiga curva glicêmica): nele, toma-se 75 g de dextrosol e, duas horas depois, é feita a coleta de sangue. Resultados de 140 a 199 mg/l podem indicar pré-diabetes; 3) hemoglobina glicada: esse exame consegue mapear como a glicose flutuou nos últimos três meses. Resultados de 5,7% a 6,4% já acendem a luz amarela dos médicos.
+
+5- Sintomas O pré-diabetes é silencioso. “Não há sintomas para identificar a doença, por isso é um problema de saúde tão sério”, diz Zagury. “Para cada paciente diagnosticado, dois não sabem que têm a condição.” Dados da Sociedade Brasileira de Diabetes estimam que 40 milhões de brasileiros sejam pré-diabéticos e, desse total, 25% podem desenvolver o diabetes tipo 2. Mas existem pontos importantes no diagnóstico. Indivíduos acima do peso, mulheres na menopausa ou que tiveram diabetes gestacional e pessoas acima de 40 anos têm mais probabilidade de desenvolver o quadro. A partir dos 45 anos, todo mundo deve fazer o exame para medir a glicemia. “Quem apresenta fatores de risco ou casos de parentes com diabetes deve começar ainda mais cedo, com 40 anos”, alerta o médico. Apesar de pré-diabetes ser um termo de uso comum, quem for diagnosticado não vai necessariamente desenvolver diabetes no futuro. “É importante esclarecer, pois o termo passa uma ideia errada de que, com certeza, a pessoa desenvolverá a enfermidade. Sim, há um risco mais elevado para o surgimento da doença, mas ele não é um destino fatal”, incentiva Zagury.
+</p>
+</div>
+
+<div class="col-lg-12" id="label2" >  
+       <h2 id="titulo">Atividade física pode ser aliada no combate a diabetes</p> </h2>
+        <p>12/novembro/2019 - Diario de Pernambuco</p>
+            <img src="img/exercicios.jpg" width="100%"> </img>
+<p>
+  <br>
+  <br>
+  Quem vê o estudante Juan Caballero Rodrigues, de 21 anos, treinando todos os dias na Bodytech Sudoeste não imagina o sufoco que ele passou há alguns anos. Aos 16 sua mãe percebeu algo estranho, no banheiro que Juan usava, surgiram formigas. “Ela me levou para fazer um exame de sangue e no mesmo dia o laboratório ligou pedindo que eu fosse a um endocrinologista, que diagnosticou a diabetes”, conta. Ele acrescenta que passou cinco dias na UTI porque estava com baixa oxigenação sanguínea.
+
+A volta para casa também não foi fácil. “Não tinha coragem de aplicar a insulina e tinha que pedir a outras pessoas que me ajudassem”, afirma. “Com o tempo, a diabetes começou a fazer parte da minha rotina diária e graças a minha paixão pelo esporte eu consigo controlar a minha glicose. Mantenho uma alimentação saudável também”, acrescenta.
+
+DIVULGAÇÃOdivulgação
+Juan Caballero Rodrigues, de 21 anos, descobriu ser diabético aos 16
+Hoje, Juan vai a academia todos os dias. Ele faz questão de fazer atividades aeróbicas duas vezes por semana.
+
+
+Mas qual a importância da atividade física?
+
+Nesta quarta-feira, 14 de novembro, é lembrado o Dia do Diabetes. A data visa conscientizar a população sobre a doença, que atinge 387 milhões de pessoas em todo o mundo (13 milhões só no Brasil), de acordo com o Atlas do Diabetes. Conforme a entidade, esse número deve aumentar mais de 150% até 2035.
+
+Já uma pesquisa do Ministério da Saúde, revelou que entre 2006 e 2016 os casos da comorbidade cresceram 61,8%, junto ao número de obesos, que subiu 60%.
+
+
+Bruno Guilhen Ribeiro, instrutor de musculação da Bodytech Sudoeste, explica que o alto índice está associado aos hábitos de vida diários, principalmente a falta de exercício e má alimentação. “O exercício físico é o principal tratamento não farmacológico, que por meio de efeitos crônicos, previne ou retarda o diabetes e suas complicações diante da melhora da
+capacidade física”, pontua. Ele complementa, “a prática gera uma melhora nos perfis lipídico, controle glicêmico e na redução da resistência à insulina, aumentando os efeitos cardioprotetores e diminuindo os índices de mortalidade”.
+
+Para Ribeiro, o treinamento adequado proporciona importantes adaptações metabólicas, neuroendócrinas e cardiovasculares, trazendo, dessa forma uma melhora na qualidade de vida.
+
+DIVULGAÇÃODivulgação
+A atividade física ajuda a prevenir ou retardar o diabetes e suas complicações
+“Diabéticos que realizam treinamento resistido (exercícios realizados contra resistência gerada por meio de estímulos e/ou sobrecargas através de halteres, barras, anilhas e que tem como consequência o ganho de força, potência e resistência) associado à atividades aeróbicas apresentam um aumento na sensibilidade à insulina, redução na dose diária, melhora do VO2máx e diminuição das complicações crônicas, além da redução dos valores da pressão arterial”, ressalta. De acordo com ele, um planejamento de treino adequado para essa população depende de uma boa manipulação do volume e da intensidade da atividade, situações que diferem para cada tipo de diabetes.
+
+
+“Por fim, a prática de atividade física ainda é o melhor tratamento para o controle e regulação das taxas hormonais e controle glicêmico”, finaliza.
+
+Movimente-se
+
+Já foi o tempo em que ir à academia era chato e duradouro. Hoje, a Bodytech oferece modalidades curtas e eficientes para a queima de gordura, ganho de massa e entre diversos outros benefícios, sem atrapalhar a rotina cansativa do brasiliense.
+
+
+A academia têm modalidades rápidas como o Peak 12, um treino intervalado que possibilita alto gasto calórico em apenas 12 minutos. Além do Cardio Burn, Knouckout (modalidade Boxe Studio) e HIIT Run, que podem ser feitas em 30 minutos.
+</p>
+</div>
+
+<div class="col-lg-12" id="label2" >  
+       <h2 id="titulo">O diabetes também pode afetar a saúde da pele</p> </h2>
+        <p>12/novembro/2019 - Diario de Pernambuco</p>
+            <img src="img/pele.jpg" width="100%"> </img>
+<p>
+  <br>
+  <br>
+  Um levantamento do Ministério da Saúde revelou que no Brasil existem 16 milhões de pessoas portadoras de diabetes. O nosso país é o quarto com o maior número de casos no mundo, tendo a doença como a quarta maior causa de mortes.
+
+As pessoas que possuem a enfermidade lidam com uma série de cuidados intensos ao longo do cotidiano. Mesmo com o índice glicêmico em controle, os pacientes que convivem com qualquer uma das duas variações da doença têm maior propensão a sofrer com problemas de pele. De caráter crônico, o diabetes é causado pela produção insuficiente ou absorção ineficaz de insulina, que é o hormônio responsável pela regulação da glicose no sangue e garante energia para os nossos corpos.
+
+De acordo com a dermatologista e membro da Sociedade Brasileira de Dermatologia (SBD) e da Sociedade Brasileira de Cirurgia Dermatológica (SBCD), Ana Rosa Magaldi, O primeiro tipo da doença acontece quando o pâncreas perde a capacidade de produzir a insulina. “Já no tipo 2, o organismo produz a insulina, mas pode desenvolver uma resistência ao hormônio. Desempenhando um significativo papel na saúde da pele, a insulina em deficiência pode causar diversos distúrbios e disfunções no maior órgão de nosso corpo”, ressalta.
+
+Ana Rosa explica que a alta taxa glicêmica pode afetar a pele de diversas maneiras. Com uma aparência ressecada e mais fina, a pele deste tipo de paciente tende a ser mais frágil e sensível. “O tecido cutâneo de pessoas com o diabetes ainda possui forte propensão a infecções. Isso acontece porque a pele de pessoas nestas condições costumam ser mais xeróticas e ressecadas. Esta baixa de hidratação na pele pode dar origem a fissuras, lesões ou descamações, tornando a área propicia a proliferação bacteriana”, esclarece.
+
+Outro problema que também afeta a pele de pessoas diabéticas é a dificuldade de cicatrização. A hiperglicemia incapacita as células de defesa do organismo, ou seja, os glóbulos brancos. “Estas células têm a função de atacar microrganismos, como as bactérias, vírus, e fungos, que possivelmente atinjam os nossos corpos. Alguns estudos também demonstram que o excesso de açúcar no sangue, aumenta a produção de substâncias derivadas do oxigênio, o que provoca uma elevação expressiva do apoptose celular, que pode ser definido como a morte das células antes que as mesmas concluam os seus papéis”, comenta.
+
+Além destas ocorrências, alguns microrganismos se alimentam da glicose extra do sangue, o que acaba favorecendo ainda mais a formação de infecções. “Então, mesmo que sejam pequenas ou de menor gravidade, todas as lesões na pele de uma pessoa com diabetes, merece muita atenção. Uma das complicações mais severas em pessoas atingidas pela doença é o pé diabético, pois ele representa a presença de infecções e problemas circulatórios nos membros inferiores. Dependendo do caso, esse problema pode evoluir para a necessidade de uma amputação”, alerta.
+
+Segundo a dermatologista, para evitar todas estas adversidades, é essencial que as pessoas que possuem a doença, mantenham o controle das taxas de glicose no sangue e deem muita atenção ao surgimento de lesões. “Caso uma ferida surja, recomendo aos pacientes que lavem o local com água e sabão, e tampem com um curativo seco, realizando trocas diárias. Entretanto, o ideal é procurar pela ajuda médica, pois somente o profissional poderá indicar o tratamento adequado para casa situação. Os membros inferiores demandam cuidados ainda mais profundos. É preciso que estas pessoas evitem andar descalços, enxuguem as extremidades dos dedos dos pés e não deixem que suas unhas encravem”, indica.
+
+A dermatologista ainda destaca que para impedir o ressecamento extremo da pele, os pacientes se hidratem por meio da ingestão de muita água e uso de hidratantes corporais. “É essencial que o diabético faça uso de produtos recomendados por um dermatologista especializado, pois alguns cremes, a exemplo daqueles com álcool em suas composições, podem piorar as lesões. Lembro também que a ação de aplicar o creme na pele, é muito importante, pois dessa forma o paciente poderá observar o seu corpo com maior cuidado e atenção, reparando se há a presença de lesões”, conclui.
+
+</p>
+</div>
+
+</div>
+</body>
+</html>
